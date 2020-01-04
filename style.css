@@ -2,3 +2,48 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* remember to create a "wrapper", i.e. "genre", AND "box" class for "flex-items"  */
+
+.box {
+    flex-basis: 500px;
+    /* sets basic width that can change responsively? */
+    height: 100px;
+    /* fixes height at 100px? */
+    flex-grow: 1;
+    /* sets a base line growth to which to compare the exceptions */
+    text-align: center;
+    line-height: 100px;
+}
+
+.action {
+    background-color: dodgerblue;
+}
+
+.thriller {
+    background-color: rgb(190, 178, 178);
+    flex-grow: 10;
+}
+
+.comedy {
+    background-color: rgb(255, 214, 30) ;
+    flex-grow: 10;
+}
+
+.horror {
+    background-color: black;
+    color: red;
+}
+
+.drama {
+    background-color: darkgrey;
+}
+
+.romance {
+    background-color: red;
+}
