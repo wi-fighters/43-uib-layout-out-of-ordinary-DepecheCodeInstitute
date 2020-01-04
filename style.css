@@ -19,6 +19,7 @@ html, body {
     /* sets a base line growth to which to compare the exceptions */
     text-align: center;
     line-height: 100px;
+    /* important to set the line height so that text can be aligned along that line */
 }
 
 .action {
